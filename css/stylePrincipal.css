@@ -1,0 +1,126 @@
+#pagina1{
+    
+    color: #9b9b9b;
+    background-color: #3c3c33;
+}
+
+
+
+
+/*FOTO PERFIL*/
+#contPerfil{
+    width: 500px;
+    height:500px;
+    overflow: hidden;
+    margin: 20px;
+    position: absolute;
+    top:100px;
+    left: 480px;
+    border-radius: 1000px;
+
+
+}
+#fotoPerfil{
+   
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+    filter: blur(0px);
+    
+}
+#fotoPerfil:hover{  /*ESTO LE DA EL EFECTO DE ZOOM*/
+    transform: scale(1.2);
+    filter: blur(10px);
+    
+}
+
+
+.divPerfil{
+    position: absolute;
+    top:620px;
+    left: 700px;
+}
+
+
+.divContacto{
+    position: absolute;
+    top:520px;
+    left: 200px;
+}
+
+
+.divTrabajo{
+    position: absolute;
+    top:520px;
+    right: 180px;
+}
+
+
+/*NOMBRE PERFIL*/
+#nombrePerfil{
+    color: #9b9b9b;
+    position: absolute;
+    top: 30px;
+    left:585px;
+    
+}
+
+
+
+/*FOTO CONTACTO*/
+#contContacto{
+    width: 300px;
+    height:300px;
+    overflow: hidden;
+    margin: 20px;
+    position:absolute;
+    top: 200px;
+    left: 100px;
+    border-radius: 1000px;
+    
+
+
+}
+#fotoContacto{
+   
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+    filter: blur(0px);
+}
+#fotoContacto:hover{  /*ESTO LE DA EL EFECTO DE ZOOM*/
+    transform: scale(1.2);
+    filter: blur(10px);
+}
+
+
+/*FOTO WORK*/
+#contWork{
+    width: 300px;
+    height:300px;
+    overflow: hidden;
+    margin: 20px;
+    position:absolute;
+    top: 200px;
+    right: 100px;
+    border-radius: 1000px;
+
+
+}
+#fotoWork{
+   
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+    filter: blur(0px);
+}
+#fotoWork:hover{  /*ESTO LE DA EL EFECTO DE ZOOM*/
+    transform: scale(1.2);
+    filter: blur(10px);
+}
+
+
+

@@ -1,0 +1,213 @@
+body{
+    color: #9b9b9b;
+    background-color: #3c3c33;
+    
+}
+
+.margin{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.margin div{
+    
+    height: 50px;
+}
+
+
+
+.box {  /*POSICION DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    text-align: center; /* centra el texto en el centro horizontal  */
+    
+    justify-content: center;
+    
+   
+  }  
+  .box div { /*ALTO Y ANCHO DEL CONTENEDOR*/
+    width: 150px;
+    height: 150px;
+    border: 4px solid #9b9b9b;  
+
+    /*CENTRA EL TEXTO EN EL MEDIO DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    
+    
+  }
+ 
+  .margin2{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.margin2 div{
+    
+    height: 50px;
+}
+
+
+.box2 {  /*POSICION DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }  
+.box2 div { /*ALTO Y ANCHO DEL CONTENEDOR*/
+    width: 700px;
+    height: 130px;    
+    
+  }
+
+
+.contPerfil{
+   
+    overflow: hidden; /* esconde los márgenes para que la foto quede dentro de un marco invisible*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contPerfil img{
+    width: 500px;
+    height: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.contPerfil img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+  .box3 {  /*POSICION DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }  
+.box3 div { /*ALTO Y ANCHO DEL CONTENEDOR*/
+    width: 700px;
+    height: 350px;    
+    
+  }
+.contProgramando{
+   
+    overflow: hidden; /* esconde los márgenes para que la foto quede dentro de un marco invisible*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contProgramando img{
+    width: 700px;
+    height: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.contProgramando img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+  .box4 {  /*POSICION DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }  
+.box4 div { /*ALTO Y ANCHO DEL CONTENEDOR*/
+    width: 700px;
+    height: 110px;    
+    
+  }
+
+
+  .box5 {  /*POSICION DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }  
+.box5 div { /*ALTO Y ANCHO DEL CONTENEDOR*/
+    width: 700px;
+    height:150px;    
+    
+  }
+  .contScout{
+   
+    overflow: hidden; /* esconde los márgenes para que la foto quede dentro de un marco invisible*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contScout img{
+    width: 500px;
+    height: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.contScout img:hover{
+    transform: scale(1.2);
+}
+
+
+
+  .box6 {  /*POSICION DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }  
+.box6 div { /*ALTO Y ANCHO DEL CONTENEDOR*/
+    width: 700px;
+    height: 110px;    
+    
+  }
+
+
+
+
+
+
+
+
+
+#contInicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btnInicio{
+    position: relative;
+    width: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 150px;
+    padding: 15px 50px;
+    background-color: gray;
+    color:black;
+    text-decoration: none; /*Elimina la línea de subrayado*/
+    border: 2px solid black;
+
+    /*ESTE CACHO DE CODIGO ES PARA CENTRAR EL TEXTO EN EL BOTÓN*/
+    display: flex;
+    justify-content: center;
+    
+
+}
+#btnInicio:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}

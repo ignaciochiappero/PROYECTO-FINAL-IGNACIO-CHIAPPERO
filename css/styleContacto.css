@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #3c3c33;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #9b9b9b;
+  }
+
+  .box {  /*POSICION DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    text-align: center; /* centra el texto en el centro horizontal  */
+    
+    justify-content: center;
+    
+   
+  }  
+  .box div { /*ALTO Y ANCHO DEL CONTENEDOR*/
+    width: 150px;
+    height: 150px;
+    border: 4px solid #9b9b9b;  
+
+    /*CENTRA EL TEXTO EN EL MEDIO DEL CONTENEDOR*/
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    
+    
+  }
+  
+  .form-contact {
+    background: #FFF;
+    width: 400px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+  }
+  
+  header {
+    width: 100%;
+    background: #9b9b9b;
+    overflow: hidden;
+    color: white;
+  }
+  
+  header span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  
+  .contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: gray;
+  }
+  
+  .contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;   
+  }
+  
+  .contact label {
+    font-weight: 700;
+  }
+  
+  .contact input:not([type='submit']), .contact textarea {
+    border: none;
+    border-bottom: 2px solid #9b9b9b ;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+  }
+  
+  .contact textarea {
+    min-height: 100px;
+  }
+  
+  input[type='submit'] {
+    padding: 10px;
+    background: #9b9b9b;
+    border: none;
+    color: white;
+    font-size: 20px;
+    /* pointer-events: none; */
+    cursor: pointer;
+  
+  }
+
+
+  #contInicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btnInicio{
+    position: relative;
+    width: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    top:700px;
+    padding: 15px 50px;
+    background-color: gray;
+    color:black;
+    text-decoration: none; /*Elimina la línea de subrayado*/
+    border: 2px solid black;
+
+    /*ESTE CACHO DE CODIGO ES PARA CENTRAR EL TEXTO EN EL BOTÓN*/
+    display: flex;
+    justify-content: center;
+    
+
+}
+#btnInicio:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
